@@ -66,5 +66,9 @@ def ptt_crawler m, d
   end
 end
 
-puts 'input date: (like 1/1)'
-ptt_crawler(*STDIN.gets.split(/\//).map(&:to_i))
+if ARGV[0]
+  ptt_crawler(ARGV[0].to_i, ARGV[1].to_i)
+else
+  puts('input date: (like 1/1)')
+  ptt_crawler(*STDIN.gets.split(/\//).map(&:to_i))
+end
