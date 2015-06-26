@@ -11,7 +11,7 @@ $ ruby ptt-crawler.rb
 ```
 or pass the date as parameter
 ```bash
-$ ruby ptt-crawler 1 23
+$ ruby ptt-crawler.rb 1 23
 ```
 Notice there is no need to enter year.
 
