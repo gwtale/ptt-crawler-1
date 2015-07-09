@@ -1,5 +1,6 @@
 # ptt-crawler
 This is a bbs station (ptt.cc in Taiwan) articles crawler
+NOTE: Not available now!! Please wait the update.
 
 ## usage
 Please install Ruby first (search 'ruby installer').
